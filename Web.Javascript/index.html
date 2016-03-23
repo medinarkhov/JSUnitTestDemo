@@ -1,0 +1,27 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular App</title>
+    <meta charset="utf-8" />
+</head>
+<body ng-app="userApp">
+
+    <div ng-controller="userController">
+        <h3>{{userModel.message}}</h3>
+        <ul>
+            <li ng-repeat="user in userModel.users">{{user}}</li>
+        </ul>
+    </div>
+
+
+
+
+<script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/userController.js"></script>
+    <script src="services/userService.js"></script>
+</body>
+</html>

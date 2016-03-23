@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Javascript", "Web.Javascript\Web.Javascript.csproj", "{AC60BD09-1345-480F-BEA5-72DF64CE5265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Javascript.Tests", "Web.Javascript.Tests\Web.Javascript.Tests.csproj", "{4FADD8D1-0F3A-42C0-B0BA-32955D1D7242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Net", "Web.Net\Web.Net.csproj", "{8ADCBD32-B5F6-4858-BFC8-BD9A6511F3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Net.Tests", "Web.Net.Tests\Web.Net.Tests.csproj", "{3F143494-E1D1-471A-BFBF-3F354F22D0BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC60BD09-1345-480F-BEA5-72DF64CE5265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC60BD09-1345-480F-BEA5-72DF64CE5265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC60BD09-1345-480F-BEA5-72DF64CE5265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC60BD09-1345-480F-BEA5-72DF64CE5265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FADD8D1-0F3A-42C0-B0BA-32955D1D7242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FADD8D1-0F3A-42C0-B0BA-32955D1D7242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FADD8D1-0F3A-42C0-B0BA-32955D1D7242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FADD8D1-0F3A-42C0-B0BA-32955D1D7242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADCBD32-B5F6-4858-BFC8-BD9A6511F3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADCBD32-B5F6-4858-BFC8-BD9A6511F3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADCBD32-B5F6-4858-BFC8-BD9A6511F3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADCBD32-B5F6-4858-BFC8-BD9A6511F3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F143494-E1D1-471A-BFBF-3F354F22D0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F143494-E1D1-471A-BFBF-3F354F22D0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F143494-E1D1-471A-BFBF-3F354F22D0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F143494-E1D1-471A-BFBF-3F354F22D0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://medinarkhov.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Web.Net\\Web.Net.csproj
+		SccProjectName0 = Web.Net
+		SccAuxPath0 = https://medinarkhov.visualstudio.com/defaultcollection
+		SccLocalPath0 = Web.Net
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Web.Net.Tests\\Web.Net.Tests.csproj
+		SccProjectName1 = Web.Net.Tests
+		SccAuxPath1 = https://medinarkhov.visualstudio.com/defaultcollection
+		SccLocalPath1 = Web.Net.Tests
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
